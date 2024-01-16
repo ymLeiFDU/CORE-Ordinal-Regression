@@ -3,7 +3,7 @@ Implementation of the paper "Learning Consistent Ordinal Representations with Co
 
 ## Motivation
 Framework of LICO is shown in the following figure:
-![schematic](figures/motivation.pdf)
+![schematic](figures/motivation.jpg)
 
 
 If you find the code useful for your research, please consider citing
