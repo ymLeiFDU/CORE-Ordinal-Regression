@@ -3,7 +3,7 @@ Implementation of the paper "Learning Consistent Ordinal Representations with Co
 
 ## Motivation
 Motivation of learning Consistent Ordinal REpresentations:
-![schematic](figures/motivation.jpg)
+![schematic](figures/motivation.jpg = 250x)
 
 
 If you find the code useful for your research, please consider citing
