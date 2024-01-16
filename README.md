@@ -2,7 +2,7 @@
 Implementation of the paper "Learning Consistent Ordinal Representations with Convex Optimization for Image Ordinal Estimation"
 
 ## Motivation
-Framework of LICO is shown in the following figure:
+Motivation of learning Consistent Ordinal REpresentations:
 ![schematic](figures/motivation.jpg)
 
 
