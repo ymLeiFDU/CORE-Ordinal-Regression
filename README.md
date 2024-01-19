@@ -17,7 +17,7 @@ Learned feature space of baselines and baselines + CORE. We show the t-SNE resul
   alt="The beautiful MDN logo.">
 </figure>
 
-Also for the MORPH test set, we randomly selected 200 samples and got the following nearly one-dimensional results:
+Also for the MORPH test set, we randomly selected 200 samples and got the following nearly one-dimensional results, verifying our motivation.
 <figure>
   <img
   src="figures/MORPH_200samples.jpg"
