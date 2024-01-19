@@ -11,7 +11,7 @@ Motivation of learning Consistent Ordinal REpresentations:
 Learned feature space of baselines and baselines + CORE. We show the t-SNE results on the test set of MORPH:
 
 <figure>
-	<figcaption>t-SNE results on test set.</figcaption>
+	<!-- <figcaption>t-SNE results on test set.</figcaption> -->
   <img
   src="figures/MORPH_total.jpg"
   alt="The beautiful MDN logo.">
@@ -22,6 +22,6 @@ Also for the MORPH test set, we randomly selected 200 samples and got the follow
   <img
   src="figures/MORPH_200samples.jpg"
   alt="The beautiful MDN logo.">
-  <figcaption>t-SNE results on randomly selected 200 samples in the test set.</figcaption>
+  <!-- <figcaption>t-SNE results on randomly selected 200 samples in the test set.</figcaption> -->
 </figure>
 
