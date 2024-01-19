@@ -12,13 +12,13 @@ Learned feature space of baselines and baselines + CORE.
 
 <img src='figures/MORPH_total.jpg' width="600">
 
-<img src='figures/MORPH_200samples.jpg' width="600">
+<!-- <img src='figures/MORPH_200samples.jpg' width="600"> -->
 
 <figure>
   <img
   src="figures/MORPH_200samples.jpg"
   alt="The beautiful MDN logo.">
-  width="600"
-  <figcaption>MDN Logo</figcaption>
+  <!-- width="600" -->
+  <figcaption><center>MDN Logo<center></figcaption>
 </figure>
 
