@@ -3,11 +3,13 @@ Implementation of the paper "CORE: Learning Consistent Ordinal Representations w
 
 ## Motivation
 Motivation of learning Consistent Ordinal REpresentations:
+
 <img src='figures/motivation.jpg' width="400">
 
 
 ## t-NSE Results
 Learned feature space of baselines and CORE + baselines.
+
 <img src='figures/MORPH_total.jpg' width="400">
 
 
