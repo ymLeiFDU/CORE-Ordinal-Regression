@@ -10,7 +10,9 @@ Motivation of learning Consistent Ordinal REpresentations:
 ## t-NSE Results
 Learned feature space of baselines and CORE + baselines.
 
-<img src='figures/MORPH_total.jpg' width="400">
+<img src='figures/MORPH_total.jpg' width="600">
+
+<img src='figures/MORPH_200samples.jpg' width="600">
 
 
 
