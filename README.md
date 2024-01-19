@@ -1,5 +1,5 @@
 # CORE-Ordinal-Regression
-Implementation of the paper "CORE: Learning Consistent Ordinal Representations with Convex Optimization for Image Ordinal Estimation", under review.
+Implementation of the paper "**CORE: Learning Consistent Ordinal Representations with Convex Optimization for Image Ordinal Estimation**", under review.
 
 ## Motivation
 Motivation of learning Consistent Ordinal REpresentations:
