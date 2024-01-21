@@ -190,7 +190,7 @@ if __name__ == '__main__':
 		train_ce_losses.append(train_ce_loss)
 		train_kl_losses.append(train_kl_loss)
 
-		best_cs, best_mae, best_cs_epoch, best_mae_epoch, test_loss, test_cs, test_mae, best_model, best_model_wts, best_srcc, best_plcc, eval_kl_loss, eval_ce_loss, eval_soft_loss = evaluate(
+		best_cs, best_mae, best_cs_epoch, best_mae_epoch, test_loss, test_cs, test_mae, best_model, best_model_wts, eval_ce_loss, eval_soft_loss = evaluate(
 			epoch = epoch,
 			opt = opt,
 			checkpoint_dir = checkpoint_dir,
@@ -224,30 +224,6 @@ if __name__ == '__main__':
 				os.mkdir(checkpoint_dir + '/trained_models')
 			torch.save(best_model_wts, checkpoint_dir + '/trained_models' + '/MAE_{:.4f}_epoch_{}_weights.pth'.format(best_mae, best_mae_epoch))
 			torch.save(best_model, checkpoint_dir + '/trained_models' + '/MAE_{:.4f}_epoch_{}_model.pth'.format(best_mae, best_mae_epoch))
-
-
-	# saving results
-	pickle.dump(train_losses, open(checkpoint_dir  + '/results/' + 'total_train_losses.pkl', 'wb'))
-	pickle.dump(train_css, open(checkpoint_dir  + '/results/' + 'total_train_css.pkl', 'wb'))
-	pickle.dump(train_maes, open(checkpoint_dir  + '/results/' + 'total_train_maes.pkl', 'wb'))
-
-	pickle.dump(test_losses, open(checkpoint_dir  + '/results/' + 'total_test_losses.pkl', 'wb'))
-	pickle.dump(test_css, open(checkpoint_dir  + '/results/' + 'total_test_css.pkl', 'wb'))
-	pickle.dump(test_maes, open(checkpoint_dir  + '/results/' + 'total_test_maes.pkl', 'wb'))
-	pickle.dump(learned_lamb, open(checkpoint_dir  + '/results/' + 'learned_lamb.pkl', 'wb'))
-
-	pickle.dump(train_kl_loss, open(checkpoint_dir  + '/results/' + 'train_kl_loss.pkl', 'wb'))
-	pickle.dump(train_ce_loss, open(checkpoint_dir  + '/results/' + 'train_ce_loss.pkl', 'wb'))
-	pickle.dump(train_soft_loss, open(checkpoint_dir  + '/results/' + 'train_soft_loss.pkl', 'wb'))
-
-	pickle.dump(eval_kl_loss, open(checkpoint_dir  + '/results/' + 'eval_kl_loss.pkl', 'wb'))
-	pickle.dump(eval_ce_loss, open(checkpoint_dir  + '/results/' + 'eval_ce_loss.pkl', 'wb'))
-	pickle.dump(eval_soft_loss, open(checkpoint_dir  + '/results/' + 'eval_soft_loss.pkl', 'wb'))
-
-	pickle.dump(test_ce_losses, open(checkpoint_dir  + '/results/' + 'test_ce_losses.pkl', 'wb'))
-	pickle.dump(test_kl_losses, open(checkpoint_dir  + '/results/' + 'test_kl_losses.pkl', 'wb'))
-	pickle.dump(train_ce_losses, open(checkpoint_dir  + '/results/' + 'train_ce_losses.pkl', 'wb'))
-	pickle.dump(train_kl_losses, open(checkpoint_dir  + '/results/' + 'train_kl_losses', 'wb'))
 
 
 
