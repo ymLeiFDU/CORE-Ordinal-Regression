@@ -6,6 +6,11 @@ Motivation of learning Consistent Ordinal REpresentations:
 
 <img src='figures/motivation.jpg' width="400">
 
+## Usage
+First, make your own Dataset, and then
+```
+bash run-train.sh
+```
 
 ## t-SNE Results
 Learned feature space of baselines and baselines + CORE. We show the t-SNE results on the test set of MORPH:
